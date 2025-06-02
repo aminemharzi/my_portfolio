@@ -211,7 +211,7 @@ const AboutSection: React.FC = () => {
             
             <div className="mt-8">
               <Button asChild className="flex items-center w-full justify-center" size="lg">
-                <a href="${BASE_URL}/Amine_MHARZI_English_resume.pdf" download>
+                <a href="./Amine_MHARZI_English_resume.pdf" download>
                   Download Resume <ArrowDown className="ml-2 h-4 w-4" />
                 </a>
               </Button>
