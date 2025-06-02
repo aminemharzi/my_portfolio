@@ -9,7 +9,7 @@ const projects: ProjectProps[] = [
     description:
       "Built a custom NLP chatbot using GPT-2, fine-tuned to assist Alzheimer’s patients with accurate and adapted responses.",
     technologies: ["Python", "Transformers", "Hugging Face", "GPT-2"],
-    image: "my_portfolio/imagess/Alzhemier.png",
+    image: "./my_portfolio/imagess/Alzhemier.png",
     github: "https://github.com/aminemharzi", // Replace with actual repo
     liveDemo: "https://example.com"
   },
@@ -18,7 +18,7 @@ const projects: ProjectProps[] = [
     description:
       "Implemented a Retrieval-Augmented Generation pipeline with Airflow, Kafka, PySpark, and FAISS for real-time data ingestion and intelligent querying.",
     technologies: ["Airflow", "Kafka", "PySpark", "FAISS", "RAG"],
-    image: "my_portfolio/imagess/rag.png",
+    image: "./my_portfolio/imagess/rag.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -27,7 +27,7 @@ const projects: ProjectProps[] = [
     description:
       "Developed a Flutter mobile application integrated with an ASP.NET API for booking, tourist recommendations, and interactive UX.",
     technologies: ["Flutter", "Dart", "ASP.NET", "REST API"],
-    image: "my_portfolio/images/mdinti_app.png",  
+    image: "./my_portfolio/images/mdinti_app.png",  
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -36,7 +36,7 @@ const projects: ProjectProps[] = [
     description:
       "Created a PHP-based hotel management system with booking, room tracking, and email invoicing features.",
     technologies: ["PHP", "HTML", "CSS", "SMTP"],
-    image: "my_portfolio/images/hotel.png",
+    image: "./my_portfolio/images/hotel.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -54,7 +54,7 @@ const projects: ProjectProps[] = [
     description:
       "Created a machine learning model to recommend doctors based on illness, availability, and geolocation using PostGIS.",
     technologies: ["Scikit-learn", "PostgreSQL", "PostGIS", "NLP"],
-    image: "my_portfolio/images/DOCTOR_RECOMANDATION.png",
+    image: "./my_portfolio/images/DOCTOR_RECOMANDATION.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   }
