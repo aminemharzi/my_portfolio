@@ -9,7 +9,7 @@ const projects: ProjectProps[] = [
     description:
       "Built a custom NLP chatbot using GPT-2, fine-tuned to assist Alzheimer’s patients with accurate and adapted responses.",
     technologies: ["Python", "Transformers", "Hugging Face", "GPT-2"],
-    image: "${BASE_URL}/image/Alzhemier.png",
+    image: "${BASE_URL}/imagess/Alzhemier.png",
     github: "https://github.com/aminemharzi", // Replace with actual repo
     liveDemo: "https://example.com"
   },
@@ -18,7 +18,7 @@ const projects: ProjectProps[] = [
     description:
       "Implemented a Retrieval-Augmented Generation pipeline with Airflow, Kafka, PySpark, and FAISS for real-time data ingestion and intelligent querying.",
     technologies: ["Airflow", "Kafka", "PySpark", "FAISS", "RAG"],
-    image: "${BASE_URL}/image/rag.png",
+    image: "${BASE_URL}/imagess/rag.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -27,7 +27,7 @@ const projects: ProjectProps[] = [
     description:
       "Developed a Flutter mobile application integrated with an ASP.NET API for booking, tourist recommendations, and interactive UX.",
     technologies: ["Flutter", "Dart", "ASP.NET", "REST API"],
-    image: "${BASE_URL}/image/mdinti_app.png",  
+    image: "${BASE_URL}/images/mdinti_app.png",  
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -36,7 +36,7 @@ const projects: ProjectProps[] = [
     description:
       "Created a PHP-based hotel management system with booking, room tracking, and email invoicing features.",
     technologies: ["PHP", "HTML", "CSS", "SMTP"],
-    image: "${BASE_URL}/image/hotel.png",
+    image: "${BASE_URL}/images/hotel.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   },
@@ -45,7 +45,7 @@ const projects: ProjectProps[] = [
   //   description:
   //     "Designed ETL pipelines using Talend and built analytical dashboards with Power BI to visualize business insights.",
   //   technologies: ["Talend", "Power BI", "SQL", "ETL"],
-  //   image: "/image/data_warehouse.png",
+  //   image: "/images/data_warehouse.png",
   //   github: "https://github.com/aminemharzi",
   //   liveDemo: "https://example.com"
   // },
@@ -54,7 +54,7 @@ const projects: ProjectProps[] = [
     description:
       "Created a machine learning model to recommend doctors based on illness, availability, and geolocation using PostGIS.",
     technologies: ["Scikit-learn", "PostgreSQL", "PostGIS", "NLP"],
-    image: "${BASE_URL}/image/DOCTOR_RECOMANDATION.png",
+    image: "${BASE_URL}/images/DOCTOR_RECOMANDATION.png",
     github: "https://github.com/aminemharzi",
     liveDemo: "https://example.com"
   }
