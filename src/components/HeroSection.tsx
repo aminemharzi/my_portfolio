@@ -2,6 +2,8 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { ArrowRight } from 'lucide-react';
+const BASE_URL = import.meta.env.BASE_URL;
+
 
 const HeroSection: React.FC = () => {
   return (
@@ -52,7 +54,7 @@ const HeroSection: React.FC = () => {
             <div className="relative w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96">
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary to-accent opacity-20 blur-xl animate-pulse"></div>
               <img
-                src="/images/profile.jpeg"
+                src="${BASE_URL}/images/profile.jpeg"  
                 alt="Profile"
                 className="rounded-full object-cover w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 border-4 border-background relative z-10"
               />

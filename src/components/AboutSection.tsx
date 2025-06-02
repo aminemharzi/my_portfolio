@@ -159,6 +159,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowDown, Briefcase, GraduationCap, Calendar, User, Award, Target } from 'lucide-react';
 import { Separator } from '@/components/ui/separator';
 import { Card } from '@/components/ui/card';
+const BASE_URL = import.meta.env.BASE_URL;
+
 
 const AboutSection: React.FC = () => {
   return (
@@ -209,7 +211,7 @@ const AboutSection: React.FC = () => {
             
             <div className="mt-8">
               <Button asChild className="flex items-center w-full justify-center" size="lg">
-                <a href="/Amine_MHARZI_English_resume.pdf" download>
+                <a href="${BASE_URL}/Amine_MHARZI_English_resume.pdf" download>
                   Download Resume <ArrowDown className="ml-2 h-4 w-4" />
                 </a>
               </Button>
